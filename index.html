@@ -178,14 +178,18 @@
             Возраст: 25 лет</span>
         </div>
 
-        <p class="about__text-about">Начинающий front-end developer. Прохожу обучение на&nbsp;Образовательной платформе
-          Skillbox. Меня заинтересовала Frontend разработка, потому что есть возможность экспериментировать, создавать
-          красивые сайты, создавать понятные интерфейсы. Умею быстро ориентироваться в&nbsp;поставленных задачах.</p>
+        <p class="about__text-about">
+          Я&nbsp;&mdash; начинающий frontend-разработчик. Мой опыт в&nbsp;верстке сайтов более полугода. Меня
+          заинтересовала Frontend разработка, потому что есть возможность экспериментировать, создавать красивые сайты,
+          создавать понятные интерфейсы. Качественно выполняю поставленные задачи, не&nbsp;боюсь новых и&nbsp;сложных
+          задач. Мои цели на&nbsp;ближайшее время&nbsp;&mdash; освоить популярные на&nbsp;текущий момент фреймворки
+          (Vue, Angular). К&nbsp;своим сильным сторонам могу отнести навыки работы в&nbsp;команде, желание найти
+          максимально результативное и&nbsp;красивое решение, способность самостоятельно искать ресурсы помогающие
+          решить проблему или повысить мой профессиональный уровень.
+        </p>
       </div>
       <div class="about__photo">
-        <div class="about__img-block">
-          <img class="about__img" src="/img/20220612_161308.jpg" alt="">
-        </div>
+        <img class="about__img" src="/img/20220612_161308.jpg" alt="">
       </div>
     </section>
 
@@ -260,7 +264,43 @@
 
     <section class="skills" id="skills">
       <div class="skills__section container">
-        <h2 class="skills__title">Ключевые навыки</h2>
+        <div class="skills__info">
+          <h2 class="skills__title">Ключевые навыки</h2>
+          <p class="skills__text">
+            Умею <b>верстать адаптивные, кроссбраузерные страницы</b> и&nbsp;компоненты по&nbsp;макетам <b>Pixel
+              Perfec</b>,
+            создавать landing page. Верстаю по&nbsp;методологии <b>БЭМ</b>. Использую в&nbsp;верстке препроцессоры
+            <b>SASS/SCSS</b>. Есть
+            базовые знание в&nbsp;<b>JavaScript</b> и&nbsp;<b>TypeScript</b>. Умею вручную конфигурировать <b>Webpack,
+              Gulp</b>. Работал
+            со&nbsp;сторонними <b>АPI</b>. Пользуюсь инструментами контроля версий <b>Git, GitHub</b>. Умею пользоваться
+            библиотекой
+            <b>React</b>, понимаю компонентный подход, работал с&nbsp;<b>redux toolkit</b>. Также умею пользоваться
+            редакторами
+            векторной и&nbsp;растровой графики такие как <b>Figma</b>, <b>Adobe Photoshop</b>, <b>CorelDRAW</b>,
+            <b>Adobe Illustrator</b>.
+          </p>
+        </div>
+        <div class="skills__type type">
+          <ul class="list-reset type__list">
+            <li class="type__item">
+              HTML
+              <span class="type__info">Html5</span>
+            </li>
+            <li class="type__item">
+              CSS3
+              <span class="type__info">SASS/SCSS</span>
+            </li>
+            <li class="type__item">
+              JS
+              <span class="type__info">React JS</span>
+            </li>
+            <li class="type__item">
+              TS
+              <span class="type__info">React TS</span>
+            </li>
+          </ul>
+        </div>
         <!-- <ul class="skills__list list-reset">
           <li class="skills__item">HTML5</li>
           <li class="skills__item">CSS3</li>
@@ -288,36 +328,76 @@
       </div>
     </section>
 
-    <section class="experience" id="experience">
-      <h2>Опыт</h2>
+    <section class="experience container" id="experience">
+      <h2 class="experience__title">Опыт</h2>
+      <p class="experience__descr">Познакомьтесь с хронологией моего рабочего опыта от прошлого до настоящего.</p>
+      <div class="experience__block education">
+        <span class="education__number">1</span>
+        <div class="education__img"></div>
+        <div class="education__descr">
+          <h3 class="education__title">Образование</h3>
+          <p class="education__text">
+            2015-2020 <br>
+            Белорусский Государственный Технологический Университет <br>
+            Квалификация инженер-электромеханик полиграфического оборудования.
+          </p>
+          <p class="education__text">
+            2021-2022 <br>
+            Skillbox <br>
+            Профессия Frontend-разработчик.
+          </p>
+        </div>
+      </div>
 
+      <div class="experience__block work">
+        <span class="work__number">2</span>
+        <div class="work__descr">
+          <h3 class="work__title">Работа</h3>
+          <div class="work__text">
+            <p>
+              2019-2022 <br>
+              ООО Эпсонт<br>
+              Специалист по допечатной подготовке
+            </p>
+            <ul class="work__list list-reset">
+              <li class="work__item">
+                Дизайн и вёрстка макетов.
+              </li>
+              <li class="work__item">Принимать и проверять приходящие файлы заказчиков <br> на соответствие требованиям
+                к
+                печати.
+              </li>
+              <li class="work__item">
+                Консультировать, при необходимости, менеджеров, <br>заказчиков и дизайнеров по вопросам
+                технической <br> оптимизации проектируемых макетов.
+              </li>
+            </ul>
+          </div>
+          <p class="work__text">
+            2022-20... <br>
+            Фриланс/саморазвитие.
+          </p>
+        </div>
+
+        <div class="work__img"></div>
+      </div>
     </section>
 
     <section class="portfolio container" id="portfolio">
       <h2 class="portfolio__title">Портфолио</h2>
 
       <div class="swiper portfolio__swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide portfolio__background-1">
-            <img class="portfolio__img" src="/img/blank.JPG" alt="">
-            <div class="portfolio__descr">
-              <div class="portfolio__info">
-                <p>Адаптивная верстка макета, соблюдение семантики, доступность, Pixel Perfect, БЭМ методология.
-                  Различный
-                  функционал - слайдеры, плавный скролл по якорям, табы, аккордеон, выпадающее меню, бургер меню.</p>
-                <a href="https://zhelukevich.github.io/Blanchard/">Посетить сайт</a>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="swiper-slide portfolio__background-2">
-            <img class="portfolio__img" src="/img/ht.JPG" alt="">
-          </div>
-          <div class="swiper-slide portfolio__background-1">
+        <div class="swiper-wrapper portfolio__wrapper">
+          <div class="swiper-slide portfolio__slide portfolio__background">
 
           </div>
-          <div class="swiper-slide portfolio__background-1">
+          <div class="swiper-slide portfolio__slide">
+
+          </div>
+          <div class="swiper-slide portfolio__slide">
+
+          </div>
+          <div class="swiper-slide portfolio__slide">
 
           </div>
         </div>
