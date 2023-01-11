@@ -1,0 +1,30 @@
+@media (max-width: 992px) {
+  .header__burger-btn {
+    display: block;
+  }
+
+  .nav {
+    justify-content: flex-start;
+  }
+
+  .nav__list {
+    display: block;
+    position: absolute;
+    width: 350px;
+    left: -350px;
+    top: 0;
+    background-color: var(--white-black);
+    padding: 70px 20px 20px 25px;
+    transition: transform .5s;
+  }
+
+  .nav__link {
+    font-size: 21px;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .header.open .nav__list {
+    transform: translateX(100%);
+  }
+}

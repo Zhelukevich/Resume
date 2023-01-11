@@ -13,6 +13,7 @@
   <link rel="preload" href="font/NoirPro-Bold.woff2" as="font">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
   <link rel="stylesheet" href="styles/swiper-bundle.min.css" />
   <script defer src="js/swiper-bundle.min.js"></script>
   <script defer src="js/main.js"></script>
@@ -22,7 +23,12 @@
 <body id="body">
 
   <header class="header" id="header">
-    <nav class="header__nav nav container">
+    <nav class="header__nav nav container" id="nav">
+
+      <button class="header__burger-btn btn-reset" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+
       <ul class="nav__list list-reset">
         <li class="nav__item">
           <a class="nav__link" href="#about"> О себе</a>
@@ -363,13 +369,13 @@
               <li class="work__item">
                 Дизайн и вёрстка макетов.
               </li>
-              <li class="work__item">Принимать и проверять приходящие файлы заказчиков <br> на соответствие требованиям
+              <li class="work__item">Принимать и проверять приходящие файлы заказчиков на соответствие требованиям
                 к
                 печати.
               </li>
               <li class="work__item">
-                Консультировать, при необходимости, менеджеров, <br>заказчиков и дизайнеров по вопросам
-                технической <br> оптимизации проектируемых макетов.
+                Консультировать, при необходимости, менеджеров, заказчиков и дизайнеров по вопросам
+                технической оптимизации проектируемых макетов.
               </li>
             </ul>
           </div>
