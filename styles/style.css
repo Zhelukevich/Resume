@@ -198,7 +198,7 @@ body {
 .hero {
   position: relative;
   padding: 120px 0 80px;
-  background-image: url('../img/4010012_l-Printed-HTML-Code---onpage.jpg');
+  background-image: url('../img/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -618,17 +618,17 @@ b {
 }
 
 .portfolio__swiper-background-1 {
-  background-image: url('../img/blank.jpg');
+  background-image: url('../img/Blanchard.jpg');
   background-size: cover;
 }
 
 .portfolio__swiper-background-2 {
-  background-image: url('../img/ht.JPG');
+  background-image: url('../img/High_pass.jpg');
   background-size: cover;
 }
 
 .portfolio__swiper-background-3 {
-  background-image: url('../img/CRM.jpg');
+  background-image: url('../img//Skillbus_CRM.jpg');
   background-size: contain;
 }
 
@@ -638,7 +638,7 @@ b {
 }
 
 .portfolio__swiper-background-5 {
-  background-image: url('../img/Sp.JPG');
+  background-image: url('../img/Spaceflight.jpg');
   background-size: contain;
 }
 
