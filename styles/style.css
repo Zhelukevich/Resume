@@ -314,8 +314,6 @@ body {
 }
 
 
-
-
 /* NAVIGATION */
 
 .navigation {
@@ -633,7 +631,7 @@ b {
 }
 
 .portfolio__swiper-background-4 {
-  background-image: url('../img/pomodoro.jpg');
+  background-image: url('../img/pomodoro_box.jpg');
   background-size: contain;
 }
 
