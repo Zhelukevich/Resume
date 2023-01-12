@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  const body = document.getElementById('body');
   const header = document.getElementById('header');
 
   window.addEventListener('scroll', () => {
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const btnUp = {
     el: document.querySelector('.btn-up'),
     show() {
-      // удалим у кнопки класс btn-up_hide
       this.el.classList.remove('btn-up_hide');
     },
     hide() {
@@ -39,19 +37,56 @@ document.addEventListener('DOMContentLoaded', function () {
   btnUp.addEventListener();
 
   // SWIPER
-  const swiper = new Swiper(".swiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+  new Swiper(".portfolio__swiper", {
+    keyboard: {
+      enabled: true,
+    },
+
+    speed: 800,
+
+    navigation: {
+      nextEl: ".portfolio__swiper-button-next",
+      prevEl: ".portfolio__swiper-button-prev",
+    },
+
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+      el: '.portfolio__swiper-pagination',
+      type: 'bullets',
+      clickable: {
+        boolean: true,
+      },
+    },
+
+    a11y: {
+      prevSlideMessage: 'Предыдущий слайд',
+      nextSlideMessage: 'Следующий слайд',
+      paginationBulletMessage: 'Перейти к слайду {{index}}',
+    },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      665: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 25,
+      },
+      1700: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 30,
+      },
     },
   });
 
-
-
   // BURGER
-
   const burger = document.getElementById('burger');
   const headerID = document.getElementById('header');
   const navLink = document.querySelectorAll('.nav__link');
