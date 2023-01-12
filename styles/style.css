@@ -618,7 +618,7 @@ b {
 }
 
 .portfolio__swiper-background-1 {
-  background-image: url('../img/blank.JPG');
+  background-image: url('../img/blank.jpg');
   background-size: cover;
 }
 
@@ -628,12 +628,12 @@ b {
 }
 
 .portfolio__swiper-background-3 {
-  background-image: url('../img/CRM.JPG');
+  background-image: url('../img/CRM.jpg');
   background-size: contain;
 }
 
 .portfolio__swiper-background-4 {
-  background-image: url('../img/pomodoro.JPG');
+  background-image: url('../img/pomodoro.jpg');
   background-size: contain;
 }
 

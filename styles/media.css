@@ -95,7 +95,7 @@
   }
 
   .education__number {
-    width: 23px;
+    width: 15px;
     top: 0;
     left: 0;
     margin-left: -3px;
@@ -313,5 +313,14 @@
 
   .type__item {
     font-size: 24px;
+  }
+
+
+  .education__descr {
+    padding: 0 15px;
+  }
+
+  .work__descr {
+    padding: 0 15px;
   }
 }
